@@ -21,7 +21,7 @@ const addBookHandler = (request,h) => {
             status: "fail",
             message: "Gagal menambahkan buku. Mohon isi nama buku"
         })
-        response.code(404)
+        response.code(400)
         return response
     }
     if (readPage > pageCount){
