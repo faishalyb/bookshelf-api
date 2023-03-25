@@ -11,5 +11,13 @@
         "ecmaVersion": "latest"
     },
     "rules": {
+        "no-console": "off",
+        "indent": [1,4],
+        "no-unneeded-ternary":0,
+        "linebreak-style": 0,
+        "max-len":"off"
+    },
+    "globals": {
+        "books": true
     }
 }
